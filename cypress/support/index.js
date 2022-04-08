@@ -19,15 +19,3 @@ import 'cypress-file-upload';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-
-import addContext from "mochawesome/addContext";
-Cypress.on("test:after:run", (test, runnable) => {  
-    if (test.state === "failed") {    
-      
-      addContext({ test }, {title: 'Screenshot', value: `C:/Users/id8admin/Desktop/RRKABEL/cypress/screenshots/${Cypress.spec.name}/${runnable.parent.title.replace(':', '')} -- ${test.title} (failed).png`})
-        addContext({ test }, {title: 'Video', value: `C:/Users/id8admin/Desktop/RRKABEL/cypress/videos/${Cypress.spec.name}.mp4`})
-    }0
-
-    }
-  
-  );

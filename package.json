@@ -12,9 +12,20 @@
     "mochawesome-report-generator": "^6.0.1",
     "multiple-cucumber-html-reporter": "^1.19.0"
   },
-  "name": "rrkabel",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+
+  "pretest":"npm run clean:cucumber-json",
+  "name": "HDFC-Test",
   "version": "1.0.0",
-  "description": "RRkabel check test",
+  "description": "HDFC Test check ",
   "main": "index.js",
   "dependencies": {
     "@cypress/commit-info": "^2.2.0",

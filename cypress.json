@@ -1,14 +1,4 @@
 {
   "projectId": "uj3qj2",
- 
-  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
-  "reporterOptions": {
-    "quite": true,
-    "reportDir": "cypress/reports/mocha",
-    "overwrite": false,
-    "html": false,
-    "json": true,
-    "screenshotOnRunFailure": true
-  }
- 
+  "testFiles": "**/*.{feature,features}"
 }

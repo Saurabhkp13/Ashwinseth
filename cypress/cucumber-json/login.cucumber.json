@@ -1,0 +1,58 @@
+[
+  {
+    "description": "  I want to demo using BDD in Cypress",
+    "keyword": "Feature",
+    "name": "Demo for BDD in Cypress",
+    "line": 1,
+    "id": "demo-for-bdd-in-cypress",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "demo-for-bdd-in-cypress;logging-into-hdfc-site",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Logging into HDFC Site",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Demo HDFC Login page",
+            "result": {
+              "status": "passed",
+              "duration": 3383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login as \"sme_admin@hdfcre.com\" user",
+            "result": {
+              "status": "passed",
+              "duration": 719000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see User logged in",
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
