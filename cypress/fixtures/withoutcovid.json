@@ -1,0 +1,119 @@
+{
+    "Loginname": "sme_admin@hdfcre.com",
+    "Password": "Asd@123456",
+    "Username":"AutomatedUser1",
+    "Country":"UAE",
+    "Email":"AutoE3@gmail.com",
+    "formPassword":"Pass@123",
+    "Subadmin":"Yes",
+    "Cedent":"GIG",
+    "EmployeesCount":"100",
+     "VAT":"Yes",
+    "Taxes":"Yes",
+    "WithholdingTaxes":"Yes",
+    "Admincharges":"Yes",
+
+
+
+    "SumInsured1":"50000",
+    "DAC1":"0.619",
+    "ADB1":"0.125",
+    "PTDA1":"0.019",
+    "PTDS1":"0",
+    "PPDA1":"0.017",
+    "PPDS1":"0",
+    "TTDA1":"0.017",
+    "TTDS1":"0",
+    "Repat1":"0.045",
+    "Medex1":"0.041",
+    "HCA1":"0",
+    "EB1":"0",
+    "TILL1":"0",
+
+
+    "SumInsured2":"100000",
+    "DAC2":"0.588",
+    "ADB2":"0.125",
+    "PTDA2":"0.019",
+    "PTDS2":"0",
+    "PPDA2":"0.017",
+    "PPDS2":"0",
+    "TTDA2":"0.017",
+    "TTDS2":"0",
+    "Repat2":"0.045",
+    "Medex2":"0.041",
+    "HCA2":"0",
+    "EB2":"0",
+    "TILL2":"0",
+
+    
+    "SumInsured3":"150000",
+    "DAC3":"0.577",
+    "ADB3":"0.125",
+    "PTDA3":"0.019",
+    "PTDS3":"0",
+    "PPDA3":"0.017",
+    "PPDS3":"0",
+    "TTDA3":"0.017",
+    "TTDS3":"0",
+    "Repat3":"0.045",
+    "Medex3":"0.041",
+    "HCA3":"0",
+    "EB3":"0",
+    "TILL3":"0",
+
+    "SumInsured4":"200000",
+    "DAC4":"0.571",
+    "ADB4":"0.125",
+    "PTDA4":"0.019",
+    "PTDS4":"0",
+    "PPDA4":"0.017",
+    "PPDS4":"0",
+    "TTDA4":"0.017",
+    "TTDS4":"0",
+    "Repat4":"0.045",
+    "Medex4":"0.041",
+    "HCA4":"0",
+    "EB4":"0",
+    "TILL4":"0",
+  
+    
+    "SumInsured5":"250000",
+    "DAC5":"0.567",
+    "ADB5":"0.125",
+    "PTDA5":"0.019",
+    "PTDS5":"0",
+    "PPDA5":"0.017",
+    "PPDS5":"0",
+    "TTDA5":"0.017",
+    "TTDS5":"0",
+    "Repat5":"0.045",
+    "Medex5":"0.041",
+    "HCA5":"0",
+    "EB5":"0",
+    "TILL5":"0"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+}
