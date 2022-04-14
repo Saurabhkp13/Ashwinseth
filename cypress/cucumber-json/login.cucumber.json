@@ -28,7 +28,7 @@
             "name": "I open Demo HDFC Login page",
             "result": {
               "status": "passed",
-              "duration": 3383000000
+              "duration": 16315000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I login as \"sme_admin@hdfcre.com\" user",
             "result": {
               "status": "passed",
-              "duration": 719000000
+              "duration": 648000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I should see User logged in",
             "result": {
               "status": "passed",
-              "duration": 465000000
+              "duration": 373000000
             }
           }
         ]

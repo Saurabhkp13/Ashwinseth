@@ -1,18 +1,18 @@
 [
   {
-    "description": "  I want to demo using BDD in Cypress",
+    "description": " User creation in HDFC",
     "keyword": "Feature",
-    "name": "Create User Cypress",
+    "name": "Demo on User creation",
     "line": 1,
-    "id": "create-user-cypress",
+    "id": "demo-on-user-creation",
     "tags": [],
     "uri": "createuser.feature",
     "elements": [
       {
-        "id": "create-user-cypress;cypress-check-on-user-creation",
+        "id": "demo-on-user-creation;logging-into-hdfc-site",
         "keyword": "Scenario",
         "line": 6,
-        "name": "Cypress check on User creation",
+        "name": "Logging into HDFC Site",
         "tags": [
           {
             "name": "@Test1",
@@ -28,7 +28,7 @@
             "name": "I open Demo HDFC Login page",
             "result": {
               "status": "passed",
-              "duration": 1577000000
+              "duration": 1389000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I login as \"sme_admin@hdfcre.com\" user",
             "result": {
               "status": "passed",
-              "duration": 719000000
+              "duration": 712000000
             }
           },
           {
@@ -48,7 +48,52 @@
             "name": "I should see User logged in",
             "result": {
               "status": "passed",
-              "duration": 527000000
+              "duration": 4815000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "demo-on-user-creation;create-user-hdfc-site",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Create User HDFC Site",
+        "tags": [
+          {
+            "name": "@Test2",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I click User menu after login",
+            "result": {
+              "status": "passed",
+              "duration": 7706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I login as Scenario2 user",
+            "result": {
+              "status": "passed",
+              "duration": 1212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see User logged in scenario2",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
             }
           }
         ]
