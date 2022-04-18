@@ -1,18 +1,18 @@
 [
   {
-    "description": "  I want to demo using BDD in Cypress",
+    "description": " Enquiry creation in Ashwinseth",
     "keyword": "Feature",
-    "name": "Demo for BDD in Cypress",
+    "name": "Demo on Ashwinseth Testing",
     "line": 1,
-    "id": "demo-for-bdd-in-cypress",
+    "id": "demo-on-ashwinseth-testing",
     "tags": [],
-    "uri": "login.feature",
+    "uri": "Avante.feature",
     "elements": [
       {
-        "id": "demo-for-bdd-in-cypress;logging-into-hdfc-site",
+        "id": "demo-on-ashwinseth-testing;user-enquiry-on-avante",
         "keyword": "Scenario",
         "line": 6,
-        "name": "Logging into HDFC Site",
+        "name": "User Enquiry on avante",
         "tags": [
           {
             "name": "@Test1",
@@ -25,30 +25,30 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "I open Demo HDFC Login page",
+            "name": "User open Avante page",
             "result": {
               "status": "passed",
-              "duration": 16315000000
+              "duration": 5285000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "I login as \"sme_admin@hdfcre.com\" user",
+            "name": "User enter details user",
             "result": {
               "status": "passed",
-              "duration": 648000000
+              "duration": 1725000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "I should see User logged in",
+            "name": "User to be shown Submitted Successfully Message",
             "result": {
               "status": "passed",
-              "duration": 373000000
+              "duration": 24000000
             }
           }
         ]

@@ -7,7 +7,7 @@ var options = {
 
         reportSuiteAsScenarios: true,
 
-        reportName: 'HDFC',
+        reportName: 'Ashwinseth Group',
 
         scenarioTimestamp: true,
 
@@ -33,11 +33,10 @@ var options = {
         customData: {
             title: 'Run info',
             data: [
-                {label: 'Project', value: 'HDFC project'},
-                {label: 'Release', value: '1.2.3'},
+                {label: 'Project', value: 'Ashwin Seth Group'},
+                {label: 'Release', value: '1.0'}
 
-                {label: 'Execution Start Time', value: (new Date).getDate() + "-" + ((new Date).getMonth() + 1) + "-" + (new Date).getFullYear() + " (" + (new Date).getHours() + ":" + (new Date).getMinutes() + ":" + (new Date).getSeconds() + ")"},
-                {label: 'Execution End Time',value: (new Date).getDate() + "-" + ((new Date).getMonth() + 1) + "-" + (new Date).getFullYear() + " (" + (new Date).getHours() + ":" + (new Date).getMinutes() + ":" + (new Date).getSeconds() + ")"}
+               
             ]
         }
  
