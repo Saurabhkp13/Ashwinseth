@@ -14,10 +14,6 @@ var options = {
         launchReport: true,
 
         metadata: {
-
-
-           
-
             browser: {
                 name: 'chrome',
 

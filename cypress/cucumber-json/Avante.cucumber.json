@@ -28,7 +28,7 @@
             "name": "User open Avante page",
             "result": {
               "status": "passed",
-              "duration": 5285000000
+              "duration": 7347000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "User enter details user",
             "result": {
               "status": "passed",
-              "duration": 1725000000
+              "duration": 1803000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "User to be shown Submitted Successfully Message",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 28000000
             }
           }
         ]
