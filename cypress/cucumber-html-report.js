@@ -20,7 +20,7 @@ var options = {
 
                 version: '60'
             },
-            device: 'Local test machine',
+            device: 'Local Test machine',
             platform: {
                 name: 'Windows',
                 version: '10'
