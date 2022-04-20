@@ -1,0 +1,103 @@
+[
+  {
+    "description": " Enquiry and Content check in Ashwinseth",
+    "keyword": "Feature",
+    "name": "Ashwinseth Sheth Midori Automation Testing",
+    "line": 1,
+    "id": "ashwinseth-sheth-midori-automation-testing",
+    "tags": [],
+    "uri": "ShethMidori.feature",
+    "elements": [
+      {
+        "id": "ashwinseth-sheth-midori-automation-testing;user-enquiry-form-submit-check-on-midori",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Enquiry form Submit check on Midori",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User open Midori page",
+            "result": {
+              "status": "passed",
+              "duration": 76779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enter details user",
+            "result": {
+              "status": "passed",
+              "duration": 1757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User to be shown Submitted Successfully Message",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ashwinseth-sheth-midori-automation-testing;user-content-check-on-midori",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User Content check on Midori",
+        "tags": [
+          {
+            "name": "@Test2",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User open Midori page",
+            "result": {
+              "status": "passed",
+              "duration": 4462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User checks content on Page",
+            "result": {
+              "status": "passed",
+              "duration": 1907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User Content check complete",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

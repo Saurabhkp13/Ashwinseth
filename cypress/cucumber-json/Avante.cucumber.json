@@ -1,0 +1,58 @@
+[
+  {
+    "description": " Enquiry creation in Ashwinseth",
+    "keyword": "Feature",
+    "name": "Demo on Ashwinseth Testing",
+    "line": 1,
+    "id": "demo-on-ashwinseth-testing",
+    "tags": [],
+    "uri": "Avante.feature",
+    "elements": [
+      {
+        "id": "demo-on-ashwinseth-testing;user-enquiry-on-avante",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Enquiry on avante",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User open Avante page",
+            "result": {
+              "status": "passed",
+              "duration": 20638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enter details user",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User to be shown Submitted Successfully Message",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

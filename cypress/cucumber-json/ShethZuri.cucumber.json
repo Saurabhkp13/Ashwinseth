@@ -1,0 +1,103 @@
+[
+  {
+    "description": " Enquiry and Content check in Ashwinseth",
+    "keyword": "Feature",
+    "name": "Ashwinseth Sheth Zuri Automation Testing",
+    "line": 1,
+    "id": "ashwinseth-sheth-zuri-automation-testing",
+    "tags": [],
+    "uri": "ShethZuri.feature",
+    "elements": [
+      {
+        "id": "ashwinseth-sheth-zuri-automation-testing;user-enquiry-form-submit-check-on-shethzuri",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Enquiry form Submit check on ShethZuri",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User open ShethZuri page",
+            "result": {
+              "status": "passed",
+              "duration": 89460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enter details user",
+            "result": {
+              "status": "passed",
+              "duration": 1430000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User to be shown Submitted Successfully Message",
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ashwinseth-sheth-zuri-automation-testing;user-content-check-on-shethzuri",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User Content check on ShethZuri",
+        "tags": [
+          {
+            "name": "@Test2",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User open ShethZuri page",
+            "result": {
+              "status": "passed",
+              "duration": 3383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User checks content on Page",
+            "result": {
+              "status": "passed",
+              "duration": 1572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User Content check complete",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

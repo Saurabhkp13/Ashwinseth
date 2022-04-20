@@ -1,0 +1,103 @@
+[
+  {
+    "description": " Enquiry and Content check in Ashwinseth",
+    "keyword": "Feature",
+    "name": "Ashwinseth Sheth Cnergy Automation Testing",
+    "line": 1,
+    "id": "ashwinseth-sheth-cnergy-automation-testing",
+    "tags": [],
+    "uri": "ShethCnergy.feature",
+    "elements": [
+      {
+        "id": "ashwinseth-sheth-cnergy-automation-testing;user-enquiry-form-submit-check-on-shethcnergy",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Enquiry form Submit check on ShethCnergy",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User open ShethCnergy page",
+            "result": {
+              "status": "passed",
+              "duration": 61653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enter details user",
+            "result": {
+              "status": "passed",
+              "duration": 1404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User to be shown Submitted Successfully Message",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ashwinseth-sheth-cnergy-automation-testing;user-content-check-on-shethcnergy",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User Content check on ShethCnergy",
+        "tags": [
+          {
+            "name": "@Test2",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User open ShethCnergy page",
+            "result": {
+              "status": "passed",
+              "duration": 4533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User checks content on Page",
+            "result": {
+              "status": "passed",
+              "duration": 1896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User Content check complete",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

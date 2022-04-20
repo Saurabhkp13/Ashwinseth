@@ -1,0 +1,103 @@
+[
+  {
+    "description": " Enquiry and Content check in Ashwinseth",
+    "keyword": "Feature",
+    "name": "Ashwinseth 72 west Automation Testing",
+    "line": 1,
+    "id": "ashwinseth-72-west-automation-testing",
+    "tags": [],
+    "uri": "72west.feature",
+    "elements": [
+      {
+        "id": "ashwinseth-72-west-automation-testing;user-enquiry-form-submit-check-on-72west",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Enquiry form Submit check on 72west",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User open 72west page",
+            "result": {
+              "status": "passed",
+              "duration": 5396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enter details user",
+            "result": {
+              "status": "passed",
+              "duration": 1678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User to be shown Submitted Successfully Message",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ashwinseth-72-west-automation-testing;user-content-check-on-72west",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User Content check on 72west",
+        "tags": [
+          {
+            "name": "@Test2",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User open 72west page",
+            "result": {
+              "status": "passed",
+              "duration": 2801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User checks content on Page",
+            "result": {
+              "status": "passed",
+              "duration": 2279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User Content check complete",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "description": " Enquiry and Content check in Ashwinseth",
+    "keyword": "Feature",
+    "name": "Ashwinseth Montana Automation Testing",
+    "line": 1,
+    "id": "ashwinseth-montana-automation-testing",
+    "tags": [],
+    "uri": "Montana.feature",
+    "elements": [
+      {
+        "id": "ashwinseth-montana-automation-testing;user-enquiry-form-submit-check-on-montana",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User Enquiry form Submit check on Montana",
+        "tags": [
+          {
+            "name": "@Test1",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User open Montana page",
+            "result": {
+              "status": "passed",
+              "duration": 25867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User enter details user",
+            "result": {
+              "status": "passed",
+              "duration": 1884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User to be shown Submitted Successfully Message",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ashwinseth-montana-automation-testing;user-content-check-on-montana",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "User Content check on Montana",
+        "tags": [
+          {
+            "name": "@Test2",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User open Montana page",
+            "result": {
+              "status": "passed",
+              "duration": 5476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User checks content on Page",
+            "result": {
+              "status": "passed",
+              "duration": 2867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User Content check complete",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
